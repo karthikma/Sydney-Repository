@@ -1,1 +1,58 @@
-Forking repo practice
+
+Certainly! Here's a list of some common Git commands used with GitHub:
+
+Initializing a Repository:
+
+git init: Initializes a new Git repository in the current directory.
+Cloning a Repository:
+
+git clone <repository_url>: Clones a remote repository to your local machine.
+Adding Changes:
+
+git add <file>: Adds a file to the staging area.
+git add . or git add --all: Adds all changes to the staging area.
+Committing Changes:
+
+git commit -m "Commit message": Commits the staged changes with a commit message.
+Checking Status:
+
+git status: Shows the status of changes as untracked, modified, or staged.
+Viewing Commit History:
+
+git log: Displays the commit history.
+git log --oneline: Displays a simplified log with one line per commit.
+Creating Branches:
+
+git branch: Lists all local branches.
+git branch <branch_name>: Creates a new branch.
+git checkout <branch_name>: Switches to the specified branch.
+git checkout -b <branch_name>: Creates and switches to a new branch.
+Merging Branches:
+
+git merge <branch_name>: Merges changes from the specified branch into the current branch.
+Pulling and Pushing Changes:
+
+git pull origin <branch_name>: Pulls changes from a remote repository into your local branch.
+git push origin <branch_name>: Pushes your local changes to a remote repository.
+Handling Conflicts:
+
+During a merge or pull, conflicts may occur. Resolve them using a text editor or a visual tool, then:
+git add <conflicted_file>: Marks the conflict as resolved.
+git merge --continue: Continues the merge process after conflicts are resolved.
+Creating Tags:
+
+git tag <tag_name>: Creates a lightweight tag at the current commit.
+Fetching Changes:
+
+git fetch: Retrieves changes from a remote repository without merging.
+Undoing Changes:
+
+git reset <file>: Unstages changes for a specific file.
+git reset --hard <commit_hash>: Resets the repository to a specific commit, discarding changes.
+Ignoring Files:
+
+Create a file named .gitignore in your repository and list files or patterns to be ignored.
+Viewing Diffs:
+
+git diff: Shows the differences between the working directory and the staging area.
+git diff <commit1> <commit2>: Displays the differences between two commits.it
